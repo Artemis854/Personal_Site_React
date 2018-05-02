@@ -1,5 +1,12 @@
 import React, { Component } from 'react'
+import { Switch, Route } from 'react-router-dom'
 import styled from 'styled-components'
+import Home from '../views/Home'
+// import About from '../views/About'
+import Projects from '../views/Projects'
+import CV from '../views/CV'
+import Contact from '../views/Contact'
+import Now from '../views/Now'
 
 const ContentWrapper = styled.div`
   grid-area: content;
@@ -11,14 +18,6 @@ const ContentWrapper = styled.div`
   grid-template-rows: 10% 1fr 5%;
   grid-template-areas: "content_header" "content_body" "content_footer";
 `
-const ContentHeader = styled.h1`
-  grid-area: content_header;
-  border-bottom: #eee 2px solid;
-`
-
-const ContentBody = styled.div`
-  grid-area: content_body;
-`
 
 const ContentFooter = styled.div`
   grid-area: content_footer;
@@ -29,16 +28,14 @@ class Content extends Component {
   render() {
     return (
       <ContentWrapper>
-        <ContentHeader>Content Head</ContentHeader>
-        <ContentBody>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            It has survived not only five centuries, but also the leap into electronic typesetting, 
-            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
-            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
-            Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </ContentBody>
+        <Switch>
+          <Route exact path='/' component={Home}/>
+          {/* <Route path='/about' component={About}/> */}
+          <Route path='/projects' component={Projects}/>
+          <Route path='/cv' component={CV}/>
+          <Route path='/contact' component={Contact}/>
+          <Route path='/now' component={Now}/>
+        </Switch>
         <ContentFooter/>
       </ContentWrapper>
     )
