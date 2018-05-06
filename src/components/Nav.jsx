@@ -26,8 +26,8 @@ class Nav extends Component {
   render() {
     return (
       <NavWrapper>
-        <Link to="/"><NavItem>Home</NavItem></Link>
-        <Link to="/now"><NavItem>Now</NavItem></Link>
+        {/* <Link to="/"><NavItem>Home</NavItem></Link> */}
+        <Link to="/"><NavItem>Now</NavItem></Link>
         <Link to="/projects"><NavItem>Projects</NavItem></Link>
         <Link to="/cv"><NavItem>CV</NavItem></Link>
         <Link to="/contact"><NavItem>Contact</NavItem></Link>

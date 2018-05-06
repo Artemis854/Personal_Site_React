@@ -1,6 +1,6 @@
 export const projects =
 [{
-        src: "/images/StockView.png",
+        src: "https://github.com/AshwinK97/Stock-View",
         thumbnail: "/images/StockView.png",
         thumbnailWidth: 320,
         thumbnailHeight: 174,

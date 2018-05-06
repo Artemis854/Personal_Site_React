@@ -29,12 +29,12 @@ class Content extends Component {
     return (
       <ContentWrapper>
         <Switch>
-          <Route exact path='/' component={Home}/>
+          {/* <Route exact path='/' component={Home}/> */}
           {/* <Route path='/about' component={About}/> */}
           <Route path='/projects' component={Projects}/>
           <Route path='/cv' component={CV}/>
           <Route path='/contact' component={Contact}/>
-          <Route path='/now' component={Now}/>
+          <Route exact path='/' component={Now}/>
         </Switch>
         <ContentFooter/>
       </ContentWrapper>

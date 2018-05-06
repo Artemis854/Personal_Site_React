@@ -22,6 +22,8 @@ class Now extends Component {
               <ul>
                 <li>- React</li>
                 <li>- Data Vis/Analytics</li>
+                <li>- Machine Learning</li>
+                <li>- Blockchain Tech. (dApps)</li>
               </ul>
             </ContentLine>
             <ContentLine>Goals:</ContentLine>
