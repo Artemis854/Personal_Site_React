@@ -7,12 +7,12 @@ const JavascriptSkills = [
 ]
 
 const PythonSkills = [
+  {name: 'Scikit-learn', level: 80},
   {name: 'Jupyter Notebook', level: 90},
-  {name: 'Pandas & Numpy', level: 70},
-  {name: 'Matplotlib', level: 60}
+  {name: 'Pandas & Numpy', level: 70}
 ]
 
 export const skills = [
-  {name: 'Python', level: 70, color: '#686de0', text: '#fff', subcategories: PythonSkills},
-  {name: 'Javascript', level: 70, color: '#f9ca24', subcategories: JavascriptSkills}
+  {name: 'Python', level: 90, color: '#686de0', text: '#fff', subcategories: PythonSkills},
+  {name: 'Javascript', level: 80, color: '#f9ca24', subcategories: JavascriptSkills}
 ]

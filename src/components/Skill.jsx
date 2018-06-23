@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const SkillWrapper = styled.div`
   position: relative;
+  display: inline-block;
   clear: both;
   margin-bottom: 25px;
 `
@@ -16,6 +17,7 @@ const MainSkill = styled.div`
   font-size: x-large;
   color: #000;
   margin: 25px auto;
+  display: block;
 `
 
 const SubSkill = styled.div`
@@ -53,7 +55,7 @@ class Skill extends Component{
 
     return(
       subskills.map((subskill, index) => {
-        return(<SubSkill key={index} style={this.SubBackground(subskill)}>{subskill.name}</SubSkill>)
+        return(<SubSkill key={index} style={this.SubBackground(subskill)}>{subskill.name} [{subskill.level}%]</SubSkill>)
       })
     )
   }
@@ -61,7 +63,7 @@ class Skill extends Component{
   render() {
     return (
       <SkillWrapper>
-        <MainSkill style={this.MainBackground()}>{this.props.skill.name}</MainSkill>
+        <MainSkill style={this.MainBackground()}>{this.props.skill.name} [{this.props.skill.level}%]</MainSkill>
         {this.ExtractSubSkills()}
       </SkillWrapper>
     )

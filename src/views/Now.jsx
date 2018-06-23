@@ -20,17 +20,16 @@ class Now extends Component {
             <ContentLine>Working on learning:</ContentLine>
             <ContentLine>
               <ul>
-                <li>- React</li>
-                <li>- Data Vis/Analytics</li>
-                <li>- Machine Learning</li>
-                <li>- Blockchain Tech. (dApps)</li>
+                <li>UI/UX (Angular and React)</li>
+                <li>Data Vis/Analytics (Three.js, D3, etc.)</li>
+                <li>Machine Learning/Deep Learning (Early learner, but this is my long term goal)</li>
               </ul>
             </ContentLine>
             <ContentLine>Goals:</ContentLine>
             <ContentLine>
               <ul>
-                <li>- Obtain a 4-16 month long intership starting in May or September</li>
-                <li>- Make Things! (Project a week if possible)</li>
+                <li>Obtain a 4-12 month long co-op or intership starting in September</li>
+                <li>Create a dashboard using Angular to track trading bots on the Forex & Crypto markets</li>
               </ul>
             </ContentLine>
           </ContentBody>

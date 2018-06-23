@@ -16,8 +16,8 @@ class Contact extends Component {
         <ContentBodyWrapper>
           <ContentBody>
             <ContentLine>Looks like you want to talk... well here's some info that'll come in handy</ContentLine>
-            <ContentLine>Email: <a href="mailto:kaushal197@gmail.com">kaushal197@gmail.com</a></ContentLine>
-            <ContentLine>Call any time: <a href="tel:+16475459549">+1 (647)-545-9549</a></ContentLine>
+            <ContentLine>Email: <a href="mailto:kaushal197@gmail.com"><span style={{"color" : "#6f6f6f"}}>kaushal197@gmail.com</span></a></ContentLine>
+            <ContentLine>Call any time: <a href="tel:+16475459549"><span style={{"color" : "#6f6f6f"}}>+1 (647)-545-9549</span></a></ContentLine>
           </ContentBody>
         </ContentBodyWrapper>
       </main>

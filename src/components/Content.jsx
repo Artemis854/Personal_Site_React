@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
 import styled from 'styled-components'
-import Home from '../views/Home'
-// import About from '../views/About'
 import Projects from '../views/Projects'
 import CV from '../views/CV'
 import Contact from '../views/Contact'
