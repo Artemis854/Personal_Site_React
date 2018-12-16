@@ -19,8 +19,12 @@ li {
 li:after {
   content: ""; /* This is necessary for the pseudo element to work. */ 
   display: block; /* This will put the pseudo element on its own line. */
-  margin: 10px 10%; /* This will center the border. */
+  margin: 10px 0; /* This will center the border. */
   width: 80%; /* Change this to whatever width you want. */
   padding-bottom: 3px;
   border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
+}
+
+h3 {
+  margin: 5px 0;
 }

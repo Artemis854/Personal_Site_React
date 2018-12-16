@@ -18,7 +18,7 @@ const ContentBody = styled.div`
   grid-template-rows: 0.2fr 1fr 0.4fr;
   grid-template-areas: 'objective . skills' 
                        'work . skills'
-                       'achievements . skills';
+                       'achievements achievements achievements';
   grid-column-gap: 20px;
 `
 
@@ -62,8 +62,7 @@ class CV extends Component {
             <Achievements>
               <h3>Achievements</h3>
               <MainList>
-                <li>Made it to Reddit's frontpage</li>
-                <li>Developed code for Online banking at RBC, literally the second page 🤩</li>
+                <li>Developed code for Online banking at RBC, literally the second page 🤩 | Made it to Reddit's frontpage</li>
               </MainList>
             </Achievements>
             <Work>
