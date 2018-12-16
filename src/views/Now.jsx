@@ -16,20 +16,20 @@ class Now extends Component {
         <ContentBodyWrapper>
           <ContentBody>
             <ContentLine>I live in Ajax... near Toronto.</ContentLine>
-            <ContentLine>Still working with the Computer Geek, but looking for an intership.</ContentLine>
+            <ContentLine>Doing an internship until April at RBC as a Developer</ContentLine>
             <ContentLine>Working on learning:</ContentLine>
             <ContentLine>
               <ul>
-                <li>UI/UX (Angular and React)</li>
-                <li>Data Vis/Analytics (Three.js, D3, etc.)</li>
-                <li>Machine Learning/Deep Learning (Early learner, but this is my long term goal)</li>
+                <li>UI/UX (Vue)</li>
+                <li>Data Vis/Interactive art (Three.js, D3, etc.)</li>
+                <li>Machine Learning/Deep Learning (Interested in bots, and automation)</li>
               </ul>
             </ContentLine>
             <ContentLine>Goals:</ContentLine>
             <ContentLine>
               <ul>
-                <li>Obtain a 4-12 month long co-op or intership starting in September</li>
-                <li>Create a dashboard using Angular to track trading bots on the Forex & Crypto markets</li>
+                <li>Obtain a 4 month or less co-op for Summer 2019 (May-August)</li>
+                <li>Create AI based art and creative UI/UX dashboards</li>
               </ul>
             </ContentLine>
           </ContentBody>

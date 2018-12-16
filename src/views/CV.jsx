@@ -57,23 +57,25 @@ class CV extends Component {
           <ContentBody>
             <Objective>
               <h3>Objective</h3>
-              <p>Obtain a 4-12 month internship or an entry level position</p>
+              <p>Obtain a 4 month or less co-op for Summer 2019 (May-August)</p>
             </Objective>
             <Achievements>
               <h3>Achievements</h3>
               <MainList>
                 <li>Made it to Reddit's frontpage</li>
-                <li>Work only on production sites <span role="img" aria-label="Spooky">😱</span> ... and haven't been fired yet for messing up!</li>
+                <li>Developed code for Online banking at RBC, literally the second page 🤩</li>
               </MainList>
             </Achievements>
             <Work>
               <h3>Work Experience</h3>
               <MainList>
-                <WorkTitle>Computer Geek <a href="https://www.computer-geek.net" style={{"color" : "#ff4757"}}>[Link]</a></WorkTitle>
+                <WorkTitle>RBC - Developer</WorkTitle>
                 <ul>
-                  <li>A bit nightmareish, but we work solely on production sites (<span style={{"color" : "#ff6b81"}}>High risk</span>; <span style={{"color" : "#70a1ff"}}>Fast paced</span>)</li>
-                  <li>All clients have a <span style={{"color" : "#0abde3"}}>unique</span> issue to tackle</li>
-                  <li>Heavily focused around <span style={{"color" : "#00d2d3"}}>communication</span>, <span style={{"color" : "#00d2d3"}}>self-starter attitude</span> (remote work), and fast-learning</li>
+                  <li>Full stack development to create an easier banking dashboard</li>
+                  <li>Worked in an Agile team, used JIRA and Confluence for management</li>
+                  <li>Heavily leveraged Git and Github for workflow</li>
+                  <li>Angular and Spring Boot services</li>
+                  <li>QA testing (Unit, Integration, E2E)</li>
                 </ul>
               </MainList>
             </Work>
